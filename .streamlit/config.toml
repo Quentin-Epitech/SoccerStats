@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#06D6A0"               # Vert menthe moderne
+backgroundColor = "#0B132B"            # Bleu nuit profond
+secondaryBackgroundColor = "#1C2541"   # Panneaux / encadrés légèrement contrastés
+textColor = "#E0E1DD"                  # Texte clair mais pas éblouissant
+font = "sans serif"
