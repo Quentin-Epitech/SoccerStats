@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Tableau de bord SoccerStats", layout="wide")
-st.title("Tableau de bord - SoccerStats")
+st.set_page_config(page_title="SoccerStats", layout="wide")
+st.title("SoccerStats")
 
 df = pd.read_csv("Clean.csv")
 
