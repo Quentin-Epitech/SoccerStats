@@ -68,6 +68,15 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+st.set_page_config(page_title="SoccerStats", layout="wide")
+st.title("SoccerStats")
+>>>>>>> origin/main
+
+>>>>>>> origin/main
 df = pd.read_csv("Clean.csv")
 
 competition = st.selectbox("Choisir une compétition :", sorted(df["Comp"].unique()))
