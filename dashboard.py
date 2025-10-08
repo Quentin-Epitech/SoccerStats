@@ -94,6 +94,11 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+<<<<<<< HEAD
+=======
+st.set_page_config(page_title="SoccerStats", layout="wide")
+st.title("SoccerStats")
+>>>>>>> origin/main
 
 df = pd.read_csv("Clean.csv")
 
