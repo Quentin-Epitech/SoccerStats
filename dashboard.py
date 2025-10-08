@@ -45,7 +45,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
+st.markdown("""
+<div class="main-header">
+<h1>SoccerStats Dashboard</h1>
+</div>
+""", unsafe_allow_html=True)
 
 df = pd.read_csv("Clean.csv")
 
